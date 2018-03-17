@@ -1,0 +1,8 @@
+* Citation
+  1) [[https://arxiv.org/pdf/1703.05051.pdf][CNN]]
+  2) 
+* Models
+** LSTM-FC
+** Conv-LSTM-FC   
+   - may want to use conv structure in [1]
+** LSTM-DO
