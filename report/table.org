@@ -1,0 +1,10 @@
+| Architecture  | Description                                       |
+|---------------+---------------------------------------------------|
+| LSTM          | pure LSTM                                         |
+| Conv-LSTM     | Conv layer follow by stacks of LSTM               |
+| GRU           | pure GRU                                          |
+| Incept-GRU    | Inception layer follow by stacks of GRU           |
+| GRU-Chrononet | Inception, GRU, followed by feed forward skipping |
+| Shallow Conv  | pure Conv                                         |
+
+

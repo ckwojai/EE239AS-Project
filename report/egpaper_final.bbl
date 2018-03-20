@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{LSTM}
+J.~Fedjaev.
+\newblock Decoding eeg brain signals using recurrent neural networks.
+\newblock Master's thesis, Technische Universitat Munchen, Germany.
+
+\bibitem{EMG}
+S.~E. Paraskevopoulou, D.~Y. Barsakcioglu, M.~R. Saberi, A.~Eftekhar, and T.~G.
+  Constandinou.
+\newblock Feature extraction using first and second derivative extrema (fsde)
+  for real-time and hardware-efficient spike sorting.
+\newblock {\em Journal of Neuroscience Methods}, 215(1):29 -- 37, 2013.
+
+\bibitem{ChronoNet}
+S.~{Roy}, I.~{Kiral-Kornek}, and S.~{Harrer}.
+\newblock {ChronoNet: A Deep Recurrent Neural Network for Abnormal EEG
+  Identification}.
+\newblock {\em ArXiv e-prints}, Jan. 2018.
+
+\bibitem{CNN}
+R.~T. Schirrmeister, J.~T. Springenberg, L.~D.~J. Fiederer, M.~Glasstetter,
+  K.~Eggensperger, M.~Tangermann, F.~Hutter, W.~Burgard, and T.~Ball.
+\newblock Deep learning with convolutional neural networks for brain mapping
+  and decoding of movement-related information from the human {EEG}.
+\newblock {\em CoRR}, abs/1703.05051, 2017.
+
+\bibitem{Deep}
+S.~Talathi.
+\newblock Deep recurrent neural networks for seizure detection and early
+  seizure detection systems.
+\newblock {\em ArXiv e-prints}, June 2017.
+
+\bibitem{DBLP:journals/corr/WuKCLJ17}
+D.~Wu, J.~King, C.~Chuang, C.~Lin, and T.~Jung.
+\newblock Spatial filtering for eeg-based regression problems in brain-computer
+  interface {(BCI)}.
+\newblock {\em CoRR}, abs/1702.02914, 2017.
+
+\end{thebibliography}

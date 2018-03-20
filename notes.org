@@ -1,8 +1,55 @@
 * Citation
   1) [[https://arxiv.org/pdf/1703.05051.pdf][CNN]]
-  2) 
+  2) [[https://arxiv.org/pdf/1802.00308.pdf][Chrononet]]
+  3) [[http://mediatum.ub.tum.de/doc/1422453/552605125571.pdf][LSTM]]
+     
 * Models
-** LSTM-FC
-** Conv-LSTM-FC   
-   - may want to use conv structure in [1]
-** LSTM-DO
+** LSTM
+** LSTM-BN-DO
+   - Still doesn't quite work
+** Conv-LSTM   
+   - Shallow conv structure in [1]
+   - Doesn't quite work
+** GRU
+** GRU-Incept
+** GRU-Incept-Concat
+** Shallow Conv
+* Abstract
+* Introduction
+* Architecture
+* Results
+* D
+* Reference
+
+
+
+* Requirements
+  - Temporal components and structures
+  - Answer EEG questions
+    1) Optimize on subject 1. Better across all subjects?
+    2) All subject, interesting trends?
+    3) Accuracy as a function of time
+  - Project write up
+    1) Abstract
+    2) Introduction
+    3) Results
+    4) Discussion
+    5) Reference
+  - Extra Pages
+    1) Table that summarize all algorithm performance
+    2) Architecture Used: CNN : layers, activation; RNN: how many units
+    3) Training process, optimizer, data augmentation, activation etc.
+* EEG Questions
+
+  |------------------+-------------+-----------+--------------|
+  | Model            | Hidden Size | Subject 1 | All subjects |
+  |------------------+-------------+-----------+--------------|
+  | 3-Layer-LSTM     | 10/32       |      0.32 |         0.35 |
+  | 3-Layer-LSTM, DO | 64/32       |      0.28 |         0.30 |
+  | CONV-LSTM        | 10/32       |      0.30 |         0.35 |
+  | 3-Layer-GRU      | 10/32       |      0.32 |         0.34 |
+  | ChronoNet        | 10/64       |       0.4 |          0.4 |
+  | Shallow CONV     | 32/32       |      0.62 |         0.72 |
+  |------------------+-------------+-----------+--------------|
+
+

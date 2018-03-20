@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{float}
 
 % Include other packages here, before hyperref.
 
@@ -21,13 +22,13 @@
 
 % Pages are numbered in submission mode, and unnumbered in camera-ready
 %\ifcvprfinal\pagestyle{empty}\fi
-\setcounter{page}{4321}
+\setcounter{page}{1}
 \begin{document}
 
 %%%%%%%%% TITLE
-\title{\LaTeX\ Author Guidelines for CVPR Proceedings}
+\title{Author Guidelines for CVPR Proceedings}
 
-\author{First Author\\
+\author{Wilson Chang\\
 Institution1\\
 Institution1 address\\
 {\tt\small firstauthor@i1.org}
@@ -37,10 +38,10 @@ Institution1 address\\
 % just like the second author.
 % To save space, use either the email address or home page, not both
 \and
-Second Author\\
+Ron Ocampo\\
 Institution2\\
 First line of institution2 address\\
-{\tt\small secondauthor@i2.org}
+{\tt\small ronocampo@ucla.edu}
 }
 
 \maketitle
@@ -65,6 +66,40 @@ the IEEE Computer Society Press.  This style guide now has several
 important modifications (for example, you are no longer warned against the
 use of sticky tape to attach your artwork to the paper), so all authors
 should read this new version.
+
+\section{Data Loading and Preprocessing}
+\subsection{Nan electrode measurement}
+Regarding electrodes having  Nan measurement, the whole trial is deleted. There are xxx in our whole dataset, namely [lists].
+\subsection{Preprocessing}
+blah blah blah
+\subsection{Dataloader}
+The preprocessed data is then loaded into Pytorch's dataloader, which provides batch size and shuffle utilities.
+
+\section{Architectures}
+Below is a table of the architectures used,
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c|l}
+    Architecture & Description\\
+    \hline
+    LSTM & pure LSTM\\
+    Conv-LSTM & Conv layer follow by stacks of LSTM\\
+    GRU & pure GRU\\
+    Incept-GRU & Inception layer follow by stacks of GRU\\
+    GRU-Chrononet & Inception, GRU, followed by feed forward skipping\\
+    Shallow Conv & pure Conv\\    
+  \end{tabular}
+  \caption{Overview of Architecture}
+\end{table}
+
+\section{Results}
+
+\section{Discussion}
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{egbib}
+}
 
 %-------------------------------------------------------------------------
 \subsection{Language}
@@ -443,3 +478,4 @@ published in the proceedings.
 }
 
 \end{document}
+
