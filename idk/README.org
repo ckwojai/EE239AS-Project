@@ -1,3 +1,4 @@
+#+OPTION: \n:t
 * Prompt
   Write a brief statement of purpose describing reason(s) for pursuing graduate or post baccalaureate study. Include any additional information concerning your preparation that is pertinent to the objective specified
 * Answer
